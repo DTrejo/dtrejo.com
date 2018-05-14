@@ -1,0 +1,17 @@
+{
+  "name": "vue",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "vuepress dev",
+    "build": "vuepress build"
+  },
+  "author": "David Trejo",
+  "license": "UNLICENSED",
+  "private": true,
+  "dependencies": {
+    "vuepress": "0.8.4"
+  }
+}

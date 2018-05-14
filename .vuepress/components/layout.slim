@@ -1,0 +1,58 @@
+doctype html
+= "\n"
+html
+  head
+    meta charset="utf-8"
+    meta http-equiv='X-UA-Compatible' content='IE=edge;chrome=1'
+    meta name="viewport" content="width=device-width, initial-scale=1.0"
+    = favicon_tag 'favicon.png'
+    link rel="alternate" type="application/atom+xml" title="#{data.blog.title} Feed" href=atom_feed_url
+    title
+      = content_for?(:page_title) ? yield_content(:page_title) : data.blog.title
+    - if (content_for?(:rel_canonical))
+      link rel="canonical" href="#{data.urls.root}#{yield_content(:rel_canonical)}"
+    - if (content_for?(:meta_keywords))
+      meta name="keywords" content="#{yield_content(:meta_keywords)}"
+    - if (content_for?(:meta_description))
+      - # meta name="description" content="#{yield_content(:meta_description)}"
+
+    = stylesheet_link_tag 'application'
+    link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet"
+
+
+  body
+    -# Header
+    = partial 'nav'
+
+    -# Body
+    .container
+      = yield
+
+    -# Footer
+    = partial 'footer'
+    = javascript_include_tag '//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js'
+    //- TODO upgrade this
+    javascript:
+      $(document).ready(function() {
+        // Show email to humans.
+        var me = 'david'
+        var atDomain = '@dtrejo.com'
+        $('a#email').click(function() {
+          $(this).attr('href', 'mailto:' + me + atDomain).text(me + atDomain)
+        })
+      })
+    = javascript_include_tag 'application'
+    = "\n"
+    javascript:
+      var _dcq = _dcq || [];
+      var _dcs = _dcs || {};
+      _dcs.account = '7413888';
+      (function() {
+        var dc = document.createElement('script');
+        dc.type = 'text/javascript'; dc.async = true;
+        dc.src = '//tag.getdrip.com/7413888.js';
+        var s = document.getElementsByTagName('script')[0];
+        s.parentNode.insertBefore(dc, s);
+      })();
+    script(src='https://www.google.com/recaptcha/api.js' async defer)
+    = google_analytics_js

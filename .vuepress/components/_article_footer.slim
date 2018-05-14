@@ -1,0 +1,44 @@
+.article-footer
+
+  / .permalink
+    label.form-label.text-muted for='permalink-input'
+      ' permalink
+    input.input-sm.form-control.select-text-on-click id='permalink-input' type='text' value='#{article_url(current_article)}'
+
+  / .twtr-share: a.twitter-share-button href="https://twitter.com/share" data-size='large' data-url="#{article_url(current_article)}" data-via=data.author.twitter data-lang="en"
+    | Tweet
+
+  / .suggest-edit
+  /   a.btn.btn-default.btn-sm href=suggest_edit_article_url(current_article)
+  /     | #{glyphicon 'edit'} Suggest edit
+
+  / Note that <script src='https://www.google.com/recaptcha/api.js'></script> is also added
+  / form(action="https://www.getdrip.com/forms/31263417/submissions" method="post" data-drip-embedded-form="31263417")
+    h2 data-drip-attribute="headline" <strong>Want to Attract Engineers?</strong>
+    div data-drip-attribute="description"
+      | Learn exactly how I help my clients attract &amp; hire software engineers.
+    br/
+    p I am <input type="text" placeholder="First Name" name="fields[firstname]"> and my email is <input type="text" placeholder="Email" type="email" name="fields[email]">.
+    div(class="g-recaptcha" data-sitekey="6Lde4yAUAAAAAJmNA-cp7ySkBKDmf3NhprEn8Y8Z")
+    p(style="margin-bottom:0") <input data-drip-attribute="sign-up-button" type="submit" name="submit" class="btn-6 btn-6a" value="Teach Me">
+
+  form action="https://www.getdrip.com/forms/761954876/submissions" data-drip-embedded-form="761954876" method="post"
+    h2 data-drip-attribute="headline"  Want to be a better Full Stack Growth Engineer?
+    div data-drip-attribute="description"  You'll get articles with everything I learn as a growth engineer at Credit Karma, a profitable private company with &gt;75 million members, &gt;$1 billion valuation, and &gt;500 employees.
+    p
+      br
+      label for="drip-email"  My email is
+      input#drip-email name="fields[email]" type="email" value="" placeholder="Email"/
+      | .
+    .g-recaptcha data-sitekey="6Lde4yAUAAAAAJmNA-cp7ySkBKDmf3NhprEn8Y8Z"
+    div
+      input class="btn-6 btn-6a" data-drip-attribute="sign-up-button" type="submit" value=("Get Helpful Articles") /
+
+
+
+  / h3 Need help hiring engineers? <a href="https://engineeroverflow.com">EngineerOverflow.com</a>
+  / p
+    |
+      Get help from an engineer who knows what experienced engineers want out of their careers <span class="unicode">☛</span> <a href="https://engineeroverflow.com">EngineerOverflow.com</a>.
+
+  / = partial 'sidebar'
