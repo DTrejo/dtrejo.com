@@ -37,13 +37,38 @@
   </div>
 </template>
 
-<!-- TODO include drip JS -->
+<script>
+    var _dcq = _dcq || []
+    var _dcs = _dcs || {}
+    _dcs.account = '7413888'
+    ;(function() {
+      var dc = document.createElement('script')
+      dc.type = 'text/javascript'
+      dc.async = true
+      dc.src = '//tag.getdrip.com/7413888.js'
+      var s = document.getElementsByTagName('script')[0]
+      s.parentNode.insertBefore(dc, s)
+    })()
+
+    ;(function() {
+      var dc = document.createElement('script')
+      dc.type = 'text/javascript'
+      dc.async = true
+      dc.defer = true
+      dc.src = 'https://www.google.com/recaptcha/api.js'
+      var s = document.getElementsByTagName('script')[0]
+      s.parentNode.insertBefore(dc, s)
+    })()
+</script>
 
 <style lang="stylus" scoped>
   .cta
     max-width 31rem
     margin 0 auto
     padding 1rem
+
+  .g-recaptcha
+    margin-bottom 1rem
 
   //
   // CTA forms, primary and seconday, madlibs
