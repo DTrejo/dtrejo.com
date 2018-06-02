@@ -22,7 +22,9 @@ layout: 'Layout'
   </p> -->
 </div>
 
-<hr>
+<hr/>
+
+<!-- 
 
 ## Philosophy of this site
 - Only one major CTA on every page (mid-article CTAs are also okay)
@@ -35,9 +37,9 @@ layout: 'Layout'
 - migrate engineeroverflow.com to here
 
 ## Questions
-- how to make a sitemap.xml? see their github issues. someone wrote one.
-- how to do redirects? w/ router injecting urls?
-- use subdirectories to create prev/next? dunno.
+- [ignore for now] how to make a sitemap.xml? see their github issues. someone wrote one.
+- [ignore for now] how to do redirects? w/ router injecting urls?
+- [ignore] use subdirectories to create prev/next? dunno. ignore it.
 
 ## TODOs
 - √ noindex nofollow everything while you work on it. or just robots.txt, for now.
@@ -59,6 +61,7 @@ layout: 'Layout'
   e.g. && list !== false. or use an "archived" tag.
   Better: use a locale so they don't show in search bar.
 - prev/next links based on the homepage categories
+-->
 
 Best,  
 _David Trejo_

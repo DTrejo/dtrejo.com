@@ -4,7 +4,7 @@ module.exports = {
   themeConfig: {
     authors: {
       default: {
-        image: '/images/dtrejo.jpg',
+        image: '/images/dtrejo.jpg', // must be inside .vuepress/public/images/*
         imageTitle: 'David Trejo',
         name: 'David Trejo',
         description: `Growth Engineer at Credit Karma & Consultant. Past clients include Aconex, Triplebyte, Neo, Brown Computer Science Department, Voxer, Cloudera, and the Veteran's Benefits Administration.`,
