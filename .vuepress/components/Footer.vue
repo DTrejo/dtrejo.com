@@ -17,16 +17,16 @@
       <Articles tag="git"    not="hiring, growth, nodejs"/>
 
       <!-- <h3>Projects</h3> -->
+      <!-- TODO -->
+
       <h4><router-link to="/archived.html">Archived</router-link></h4>
 
       <h3>Find me</h3>
-      <a href="https://github.com/DTrejo">Github</a>
-      <br/>
-      <a href="https://twitter.com/ddtrejo">Twitter</a>
-      <br/>
-      <a id="email" href="#" title="david at this domain">Email</a>
-      <br/>
-      <br/>
+      <ul>
+        <li><a href="https://github.com/DTrejo">Github</a></li>
+        <li><a href="https://twitter.com/ddtrejo">Twitter</a></li>
+        <li><a id="email" href="#" title="david at this domain">Email</a></li>
+      </ul>
 
       <div v-if="$site.themeConfig.footer">
         {{ $site.themeConfig.footer }}
