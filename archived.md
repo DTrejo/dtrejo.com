@@ -5,4 +5,8 @@ author: false
 cta: false
 ---
 # Archived Articles
-<Articles              not="hiring, growth, howto, nodejs, git"/>
+
+<Articles tag="archived" />
+
+<!-- find articles that need the archived tag added -->
+<!-- <Articles not="hiring, growth, howto, nodejs, git" /> -->

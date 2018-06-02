@@ -1,6 +1,6 @@
 ---
 title: Books by David Trejo
-layout: 'Layout'
+layout: Layout
 ---
 # {{$page.title}}
 

@@ -1,9 +1,11 @@
 ---
 title: Hotkeys for Hacker News
 date: 2010-08-14 00:00 CET
-tags: hackernews
+tags: hackernews, archived
 author: dtrejo
+layout: Layout
 ---
+# {{$page.title}}
 
 <div class='post_body'><div>I was bored so I made gmail-style <a href="https://chrome.google.com/extensions/detail/nkeegljkkibjiiaehmjfncdbkbbgdojb">hotkeys for Hacker News</a>. You can install the chrome extension <a href="https://chrome.google.com/extensions/detail/nkeegljkkibjiiaehmjfncdbkbbgdojb">here</a>.</div>
 <p />

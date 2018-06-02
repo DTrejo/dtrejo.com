@@ -1,7 +1,7 @@
 ---
 title: My Javascript Tooling Wishlist
 date: 2014-03-21 07:06 CET
-tags: javascript, nodejs, tools, archived
+tags: javascript, nodejs, tools
 author: dtrejo
 layout: Layout
 ---

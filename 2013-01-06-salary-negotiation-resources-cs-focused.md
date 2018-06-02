@@ -1,9 +1,11 @@
 ---
 title: Salary Negotiation Resources (CS focused)
 date: 2013-01-06 00:00 CET
-tags: salary negotiation
+tags: salary negotiation, archived
 author: dtrejo
+layout: Layout
 ---
+# {{$page.title}}
 
 **This is a dump of my personal notes; expect nothing!**
 

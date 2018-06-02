@@ -8,13 +8,13 @@
       <Articles tag="growth"/>
 
       <h3>How to...</h3>
-      <Articles tag="howto"  not="hiring, growth, git, nodejs"/>
+      <Articles tag="howto"  not="archived, hiring, growth, git, nodejs"/>
 
       <h3>Node.js</h3>
-      <Articles tag="nodejs" not="hiring, growth"/>
+      <Articles tag="nodejs" not="archived, hiring, growth"/>
 
       <h3>Git</h3>
-      <Articles tag="git"    not="hiring, growth, nodejs"/>
+      <Articles tag="git"    not="archived, hiring, growth, nodejs"/>
 
       <!-- <h3>Projects</h3> -->
       <!-- TODO -->
@@ -25,7 +25,15 @@
       <ul>
         <li><a href="https://github.com/DTrejo">Github</a></li>
         <li><a href="https://twitter.com/ddtrejo">Twitter</a></li>
-        <li><a id="email" href="#" title="david at this domain">Email</a></li>
+        <li>
+          <a
+            @click.prevent="email = '@dtrejo.com'"
+            :href="email ? 'mailto:david' + email : '#david at this domain'"
+            title="david at this domain"
+          >
+            {{ email ? 'david' + email : 'Email' }}
+          </a>
+        </li>
       </ul>
 
       <div v-if="$site.themeConfig.footer">
@@ -34,6 +42,16 @@
     </div>
   </div>
 </template>
+
+<script>
+  export default {
+    data: () => {
+      return {
+        email: false
+      }
+    }
+  }
+</script>
 
 <style lang="stylus" scoped>
   @import '../override.styl'

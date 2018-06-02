@@ -3,8 +3,9 @@ title: How to Write Consistently, Painlessly, and Without Writer's Block
 date: 2016-07-04 06:41 CEST
 tags: writing, howto
 author: dtrejo
-sidebar: auto
+layout: Layout
 ---
+# {{$page.title}}
 
 The more of these you do, the more successful your writing session will be. I've marked the most important ones with a ★.
 

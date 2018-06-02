@@ -1,7 +1,7 @@
 ---
 title: $1100 clock made with jQuery
 date: 2010-08-15 00:00 CET
-tags: css, html, jquery
+tags: css, html, jquery, archived
 author: dtrejo
 layout: Layout
 ---

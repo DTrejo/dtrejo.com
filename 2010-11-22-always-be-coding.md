@@ -1,9 +1,11 @@
 ---
 title: Always be Coding
 date: 2010-11-22 00:00 CET
-tags: productivity
+tags: productivity, archived
 author: dtrejo
+layout: Layout
 ---
+# {{$page.title}}
 
 <p>It is very difficult to always be coding. Here is a list that helps me make progress even when I&rsquo;m presented with a hairy complicated technical problem. This list also helps soldier on even if I&rsquo;m not feeling particularly motivated, or in the mood.</p>
 <h2>Mind Tricks</h2>

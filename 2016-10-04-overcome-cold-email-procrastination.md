@@ -1,9 +1,11 @@
 ---
 title: Overcome Cold-Email Procrastination
 date: 2016-10-04 22:16 CEST
-tags: email, cold email
+tags: howto, email, cold email
 author: dtrejo
+layout: Layout
 ---
+# {{$page.title}}
 
 It's child's play for me to write & send sequences on behalf of my clients. When I write for myself, I struggle. This article is meant to help future me, the next time I'm cold emailing for myself.
 
@@ -52,4 +54,5 @@ Yours,<br>
 David Trejo<br>
 EngineerOverflow.com
 
-PS **Want exact instructions on how to ask all your friends for referrals using Quickmail?** [Buy my book](https://gum.co/CSGETMONEY). The referrals chapter also includes the exact sequence I used. It's a considerate 2-step sequence and got me 30% reply-rate.
+PS **Want exact instructions on how to ask all your friends for referrals using Quickmail?**  
+[Buy my book](https://gum.co/CSGETMONEY). The referrals chapter also includes the exact sequence I used. It's a considerate 2-step sequence and got me 30% reply-rate.
