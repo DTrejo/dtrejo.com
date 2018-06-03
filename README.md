@@ -24,7 +24,7 @@ layout: 'Layout'
 
 <hr/>
 
-<!-- 
+<!--  --->
 
 ## Philosophy of this site
 - Only one major CTA on every page (mid-article CTAs are also okay)
@@ -34,7 +34,6 @@ layout: 'Layout'
 - Homepage has... mini squeeze copy; sign up cta; read on;
   then footer, to deemphasize:
     my projects etc like it is on my current site; then my articles
-- migrate engineeroverflow.com to here
 
 ## Questions
 - [ignore for now] how to make a sitemap.xml? see their github issues. someone wrote one.
@@ -50,17 +49,22 @@ layout: 'Layout'
 - √do the CTA form
 - ~ publish it immediately, just a super barebones homepage
 - ~ set up CI to publish it
-- fix images
-- finish author images
-- finish CTA form
-- sitemap
+- √fix images
+- √fix author image
+- ~finish CTA form
 - get the homepage looking like my homepage, for dtrejo.com
 - get my projects to load right: copy to public/
 - GA
-- come up with a way to hide stuff from the listing of articles if old.
+- √come up with a way to hide stuff from the listing of articles if old.
   e.g. && list !== false. or use an "archived" tag.
   Better: use a locale so they don't show in search bar.
-- prev/next links based on the homepage categories
+- [ignore] prev/next links based on the homepage categories? too much work.
+- fix dates at the start of filenames.
+- create draft post for easy copying on github.
+- migrate engineeroverflow.com to here?
+- migrate yelp rescues page to here?
+- turn workshop proposal(s) into a sales page
+
 -->
 
 Best,  
