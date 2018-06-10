@@ -53,7 +53,7 @@ _David Trejo_
 - Only add TOC at the top for non-sales articles
 - Homepage has... mini squeeze copy; sign up cta; read on;
   then footer, to deemphasize:
-    my projects etc like it is on my current site; then my articles
+    √my projects etc like it is on my current site; then my articles
 
 ## Questions
 - [ignore for now] how to make a sitemap.xml? see their github issues. someone wrote one.
@@ -61,29 +61,38 @@ _David Trejo_
 - [ignore] use subdirectories to create prev/next? dunno. ignore it.
 
 ## TODOs
+- new color theme? or just accentcolor?
+- >>> publish it!
+- >>> set up CI to publish it
+
+- check cta form works
+- better headshot image via victoria?
+- get my projects to load right: copy to public/; check em?
+- GA
+- fix dates at the start of filenames.
+- create draft post for easy copying on github.
+- migrate engineeroverflow.com to here?
+- migrate yelp rescues page to here?
+- turn workshop proposal(s) into a sales page
+- image to color scheme library?
+
+- get samir's feedback and the maybe hide even more stuff / further focus it.
 - √ noindex nofollow everything while you work on it. or just robots.txt, for now.
 - √ delete everything that is not relevant (or don't commit it)
 - √ all other articles
 - √ then do each growth article
 - √add author images
 - √do the CTA form
-- ~ publish it immediately, just a super barebones homepage
-- ~ set up CI to publish it
 - √fix images
 - √fix author image
-- ~finish CTA form
-- get the homepage looking like my homepage, for dtrejo.com
-- get my projects to load right: copy to public/
-- GA
+- √finish CTA form
+- √get the homepage looking like my homepage, for dtrejo.com
 - √come up with a way to hide stuff from the listing of articles if old.
   e.g. && list !== false. or use an "archived" tag.
   Better: use a locale so they don't show in search bar.
 - [ignore] prev/next links based on the homepage categories? too much work.
-- fix dates at the start of filenames.
-- create draft post for easy copying on github.
-- migrate engineeroverflow.com to here?
-- migrate yelp rescues page to here?
-- turn workshop proposal(s) into a sales page
+- [ignore] show 3 "next" related articles under each article?
+- [ignore] give the visitor a quiz and only show them what they're interest in?
 
 -->
 
