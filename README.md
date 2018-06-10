@@ -1,5 +1,6 @@
 ---
 layout: 'Layout'
+heroImage: /images/dtrejo.jpg
 # actionText: Get Started →
 # actionLink: /guide/
 # features:
@@ -9,10 +10,15 @@ layout: 'Layout'
 #   details: Enjoy the dev experience of Vue + webpack, use Vue components in markdown, and develop custom themes with Vue.
 # - title: Performant
 #   details: VuePress generates pre-rendered static HTML for each page, and runs as an SPA once a page is loaded.
+email: false
 ---
 
 <div class="hero">
-  <img v-if="data.heroImage" :src="$withBase(data.heroImage)" alt="hero">
+  <img
+    v-if="data.heroImage"
+    :src="$withBase(data.heroImage)"
+    alt="hero"
+  >
   <h1>{{ data.heroText || $title || 'Hello' }}</h1>
   <p class="description">
     {{ data.tagline || $description || 'Welcome to your VuePress site' }}
@@ -23,6 +29,24 @@ layout: 'Layout'
 </div>
 
 <hr/>
+
+Hey there,  
+Which of these articles would you want me to write next? :)
+
+- ~10 A/B tests which earn us ~+$10MM/year at Credit Karma (along with conversion improvement numbers)
+- How to keep shipping A/B tests while reducing technical debt from old dead experiment code
+- How to involve your analyst/engineering manager/marketing manager in the prioritization, opportunity finding, and sizing that needs to happen before you can build an experiment
+- Or, what would you like me to write about?*
+
+Thanks in advance,  
+_David Trejo_  
+<Email/>
+
+P.S. *If none of the articles above sound interesting to you, **send me an email with 
+your questions about growth and conversion rate optimization**.
+
+When you ask me questions, you're actually helping me write, so please do email! <Email/>
+
 
 <!--
 
@@ -66,9 +90,6 @@ layout: 'Layout'
 - turn workshop proposal(s) into a sales page
 
 -->
-
-Best,  
-_David Trejo_
 
 <script>
 import NavLink from 'vuepress/lib/default-theme/NavLink'
