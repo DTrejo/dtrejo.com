@@ -19,6 +19,10 @@
       <h3>Top Projects</h3>
       <ul>
         <li>
+          <a href="https://EngineerWorth.com">EngineerWorth.com</a> Is that
+          product feature worth coding? Run a quick ROI calculation and find out.
+        </li>
+        <li>
           <a href="/qlock/qlock.html">jQuery Qlock2</a> Tell time with this $800 clock, for free.
         </li>
         <li>
