@@ -9,9 +9,9 @@
       <h3 data-drip-attribute="headline">
         Want to be a better Full Stack Growth Engineer?
       </h3>
-      <div data-drip-attribute="description">
-        You'll get articles with everything I learn as a growth engineer at Credit Karma, a profitable private company with &gt;75 million members, &gt;$1 billion valuation, and &gt;500 employees.
-      </div>
+      <p data-drip-attribute="description">
+        You'll get articles on everything I learn as a growth engineer at Credit Karma, a profitable private company with &gt;75 million members, &gt;$1 billion valuation, and &gt;500 employees.
+      </p>
       <p>
         <label for="drip-email"><strong>My email is </strong></label>
         <input

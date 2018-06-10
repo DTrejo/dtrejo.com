@@ -77,5 +77,7 @@
   .footer > * {
     max-width 33rem
     margin 0 auto
+    padding-left 1rem
+    padding-right 1rem
   }
 </style>

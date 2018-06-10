@@ -10,9 +10,7 @@ heroImage: /images/dtrejo.jpg
 #   details: Enjoy the dev experience of Vue + webpack, use Vue components in markdown, and develop custom themes with Vue.
 # - title: Performant
 #   details: VuePress generates pre-rendered static HTML for each page, and runs as an SPA once a page is loaded.
-email: false
 ---
-
 <div class="hero">
   <img
     v-if="data.heroImage"
@@ -29,24 +27,22 @@ email: false
 </div>
 
 <hr/>
+<br/>
 
 Hey there,  
 Which of these articles would you want me to write next? :)
 
-- ~10 A/B tests which earn us ~+$10MM/year at Credit Karma (along with conversion improvement numbers)
-- How to keep shipping A/B tests while reducing technical debt from old dead experiment code
-- How to involve your analyst/engineering manager/marketing manager in the prioritization, opportunity finding, and sizing that needs to happen before you can build an experiment
-- Or, what would you like me to write about?*
+A. ~10 A/B tests which earn us ~+$10MM/year at Credit Karma (along with conversion numbers)
+B. How to keep shipping A/B tests while reducing technical debt from old dead experiment code
+C. How to involve your analyst/engineering manager/marketing manager in the prioritization, opportunity finding, and sizing which needs to happen before you can build an experiment
+
+Or, what would you like me to write about? Your questions about growth
+engineering & conversion rate optimization will help me write more–talk to you
+soon! <Email/>.
 
 Thanks in advance,  
 _David Trejo_  
 <Email/>
-
-P.S. *If none of the articles above sound interesting to you, **send me an email with 
-your questions about growth and conversion rate optimization**.
-
-When you ask me questions, you're actually helping me write, so please do email! <Email/>
-
 
 <!--
 

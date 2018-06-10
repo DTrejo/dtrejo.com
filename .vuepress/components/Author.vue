@@ -7,7 +7,7 @@
         <NavLink style="color: inherit" :item="{ link: author.link, text: author.name }"/>
       </h4>
       <h4 v-else>{{author.name}}</h4>
-      <span>{{author.description}}</span>
+      <p>{{author.description}}</p>
     </div>
   </div>
 </template>
@@ -18,6 +18,7 @@
     height 82px
     border-radius 50%
     margin-right 1rem
+    margin-left 1rem
   }
   .author {
     max-width 33rem
