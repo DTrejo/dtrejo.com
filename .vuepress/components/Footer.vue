@@ -16,8 +16,33 @@
       <h3>Git</h3>
       <Articles tag="git"    not="archived, hiring, growth, nodejs"/>
 
-      <!-- <h3>Projects</h3> -->
-      <!-- TODO -->
+      <h3>Top Projects</h3>
+      <ul>
+        <li>
+          <a href="/qlock/qlock.html">jQuery Qlock2</a> Tell time with this $800 clock, for free.
+        </li>
+        <li>
+          <a href="/colorslice/">ColorSlice</a>
+          Wish it were easier to steal and create color schemes?
+          Colorslice helps front-end developers <span class="amp">&amp;</span>
+          designers with color.
+        </li>
+        <li>
+          <a href="/colorpreview/">ColorPreview</a>
+          Vet color combinations and pick only the ones with enough contrast,
+          that your eye finds pleasing.
+        </li>
+        <li>
+          <a href="/lazytemplating/">Lazy Templating</a>
+          What if you could do HTML templating using a spreadsheet? Now you
+        can.
+        </li>
+        <li>
+          <a href="http://github.com/DTrejo/ampline">Ampline</a>
+          Tired of copy-pasting or tab-completing long file paths? Accelerate yourself
+        on the command-line.
+        </li>
+      </ul>
 
       <h4><router-link to="/archived.html">Archived</router-link></h4>
 
