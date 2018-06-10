@@ -84,6 +84,9 @@
     background-color $form-background-color
     color $form-color
 
+  h3
+    margin-top 0
+
   input[placeholder]
     font-size 1.75rem
     border none
