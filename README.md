@@ -24,7 +24,7 @@ layout: 'Layout'
 
 <hr/>
 
-<!--  --->
+<!--
 
 ## Philosophy of this site
 - Only one major CTA on every page (mid-article CTAs are also okay)

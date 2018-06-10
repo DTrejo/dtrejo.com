@@ -55,13 +55,7 @@
         <li><a href="https://github.com/DTrejo">Github</a></li>
         <li><a href="https://twitter.com/ddtrejo">Twitter</a></li>
         <li>
-          <a
-            @click.prevent="email = '@dtrejo.com'"
-            :href="email ? 'mailto:david' + email : '#david at this domain'"
-            title="david at this domain"
-          >
-            {{ email ? 'david' + email : 'Email' }}
-          </a>
+          <Email/>
         </li>
       </ul>
 
@@ -71,16 +65,6 @@
     </div>
   </div>
 </template>
-
-<script>
-  export default {
-    data: () => {
-      return {
-        email: false
-      }
-    }
-  }
-</script>
 
 <style lang="stylus" scoped>
   @import '../override.styl'
