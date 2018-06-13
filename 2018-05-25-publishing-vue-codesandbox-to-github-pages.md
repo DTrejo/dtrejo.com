@@ -3,7 +3,7 @@ title: How to Publish a Vue CodeSandbox.io to Github Pages on a Custom Domain
 date: 2018-01-11 05:55 CET
 tags: howto, js
 author: dtrejo
-layout: 'Layout'
+layout: Layout
 ---
 # {{$page.title}}
 

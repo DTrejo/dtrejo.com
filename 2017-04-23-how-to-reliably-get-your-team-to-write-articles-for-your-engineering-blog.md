@@ -3,7 +3,9 @@ title: How to Reliably Get Your Team to Write Articles for Your Engineering Blog
 date: 2017-04-23 23:54 CEST
 tags: hiring, writing
 author: dtrejo
+layout: Layout
 ---
+# {{$page.title}}
 
 You probably already know why it's so helpful to have your team write
 engineering articles:

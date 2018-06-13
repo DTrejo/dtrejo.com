@@ -3,7 +3,9 @@ title: Everything You Should Do in the First 30 Days of a New Growth Engineering
 date: 2018-01-11 06:26 CET
 tags: howto, growth, marketing, engineering
 author: dtrejo
+layout: Layout
 ---
+# {{$page.title}}
 
 I’m going to lay out the things I did and wanted to do in the first 30 days of my growth engineering job at Credit Karma. I work on acquisition: getting us more traffic and more signups. My engineering work contributes to our efforts across SEO, conversation rate optimization, UX, and page speed optimization.
 

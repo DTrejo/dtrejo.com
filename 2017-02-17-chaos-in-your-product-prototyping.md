@@ -3,7 +3,9 @@ title: Chaos in Your Product Prototyping
 date: 2017-02-17 05:50 CET
 tags: lean, prototyping, growth
 author: dtrejo
+layout: Layout
 ---
+# {{$page.title}}
 
 Note: **I no longer believe that product ideas should be _validated_.** One should only
 build after one has pre-sold or collected signed letters of intent to buy at

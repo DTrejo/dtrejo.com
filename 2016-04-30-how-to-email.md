@@ -3,7 +3,9 @@ title: How To Email
 date: 2016-04-30 00:51 CEST
 tags: howto, email
 author: dtrejo
+layout: Layout
 ---
+# {{$page.title}}
 
 You think you know how to email. Think again. This is a guide on how to write and send emails that are considerate to the reader, and **get replies**. This is meant for everyday people sending normal emails.
 

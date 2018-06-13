@@ -3,7 +3,9 @@ title: How to Run an Intern Meetup
 date: 2014-03-22 00:33 CET
 tags: howto, checklist, intern, hiring
 author: dtrejo
+layout: Layout
 ---
+# {{$page.title}}
 
 *Note: written in 2012, but it still applies.*
 

@@ -3,7 +3,9 @@ title: Moneyball Book Review and Measuring Revenue per Engineer
 date: 2017-05-18 04:40 CEST
 tags: hiring
 author: dtrejo
+layout: Layout
 ---
+# {{$page.title}}
 
 First, I've pulled out the highlights of Moneyball for you. The book is about
 how the Oakland A's baseball team buys players who are undervalued by the rest

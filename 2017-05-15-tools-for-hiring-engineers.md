@@ -3,7 +3,9 @@ title: Tools for Hiring Engineers That Save Time and Increase Conversion
 date: 2017-05-15 19:40 CEST
 tags: hiring
 author: dtrejo
+layout: Layout
 ---
+# {{$page.title}}
 
 Eric Zhang (CTO at Scalable Press) requested that I write him this article (thanks for the request Eric!).
 

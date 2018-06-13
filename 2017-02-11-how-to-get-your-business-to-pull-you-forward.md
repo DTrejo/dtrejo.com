@@ -3,7 +3,9 @@ title: How to Get Your Business to Pull You Forward
 date: 2017-02-11 05:03 CET
 tags: howto, business
 author: dtrejo
+layout: Layout
 ---
+# {{$page.title}}
 
 For me, there are two major reserves of energy. Drawing on **grind energy**
 drains you until you complete the task. The small hit of dopamine upon

@@ -3,8 +3,8 @@ title: How do you replicate the warmth and friendliness of a referral hire, even
 date: 2014-03-22 21:14 CET
 tags: hiring
 author: dtrejo
+layout: Layout
 ---
-
 # {{$page.title}}
 
 Hiring is a lot like dating. First let's talk about dating, then see what

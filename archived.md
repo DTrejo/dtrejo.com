@@ -1,10 +1,12 @@
 ---
 title: 'Archived'
-layout: 'Layout'
+layout: Layout
 author: false
 cta: false
 ---
-# Archived Articles
+# {{$page.title}}
+
+## Archived Articles
 
 <Articles tag="archived" />
 

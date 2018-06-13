@@ -3,22 +3,30 @@ title: Convert all line endings to LF
 date: 2012-01-02 00:00 CET
 tags: git, line endings, node.js
 author: dtrejo
+layout: Layout
 ---
+# {{$page.title}}
 
 **Why?** So that you can [check your node_modules folder into git][1], whether
 or not there are mixed line endings in files.
 
 Use [dos2unix][2], which you can get using [macports][3]:
 
-    sudo port install dos2unix
+```sh
+sudo port install dos2unix
+```
 
 And then use it:
 
-    dos2unix filetoconvert.js
+```sh
+dos2unix filetoconvert.js
+```
 
 Or if there are many offending files:
 
-    find path/to/bad/files/ | xargs dos2unix
+```sh
+find path/to/bad/files/ | xargs dos2unix
+```
 
 And then `git add` whatever you like and you'll be good to go!
 

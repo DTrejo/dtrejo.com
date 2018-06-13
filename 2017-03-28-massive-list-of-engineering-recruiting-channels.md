@@ -3,7 +3,9 @@ title: Massive List of Engineering Recruiting Channels
 date: 2017-03-28 08:15 CEST
 tags: hiring
 author: dtrejo
+layout: Layout
 ---
+# {{$page.title}}
 
 ## This list is for you if...
 - You don't have enough top-of-funnel engineering candidates

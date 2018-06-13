@@ -1,15 +1,17 @@
 ---
 title: Why is Node Being Forked?
 date: 2014-10-09 21:11 CEST
-tags: nodejs, forked
+tags: nodejs, forked, archived
 author: dtrejo
+layout: Layout
 ---
+# {{$page.title}}
 
-![node logo](/images/new-nodejs-logo.png)
+![node logo](./images/new-nodejs-logo.png)
 
 As of October 9th I learned that [Node][node] is being forked!
 
-[![Why is node being forked? tweet](/images/why-is-node-being-forked-tweet1.png)][confirmation-tweet]
+[![Why is node being forked? tweet](./images/why-is-node-being-forked-tweet1.png)][confirmation-tweet]
 
 I asked someone close to this, "what is the reason for the fork?"
 

@@ -3,7 +3,9 @@ title: Questions That Senior Systems Engineers Want Answered
 date: 2017-05-16 23:32 CEST
 tags: hiring
 author: dtrejo
+layout: Layout
 ---
+# {{$page.title}}
 
 You know that interviewing is a painful and expensive problem when your friends
 send you pages worth of questions that they use to evaluate future employers.

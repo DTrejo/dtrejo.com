@@ -3,7 +3,7 @@ title: How to Hustle on Your Referrals So They Actually Get Hired
 date: 2018-01-11 05:55 CET
 tags: howto, referrals, hiring
 author: dtrejo
-layout: 'Layout'
+layout: Layout
 ---
 # {{$page.title}}
 

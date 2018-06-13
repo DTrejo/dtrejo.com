@@ -3,7 +3,9 @@ title: How Do You Transition from Rails Lead Engineer to Growth Engineer?
 date: 2018-02-18 02:02 CET
 tags: howto, growth, engineering
 author: dtrejo
+layout: Layout
 ---
+# {{$page.title}}
 
 Timothy Johnson* asks:
 

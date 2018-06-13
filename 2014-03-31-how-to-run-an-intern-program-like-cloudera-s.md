@@ -3,7 +3,9 @@ title: How to Run an Intern Program Like Cloudera's
 date: 2014-03-31 21:14 CET
 tags: hiring, intern, howto
 author: dtrejo
+layout: Layout
 ---
+# {{$page.title}}
 
 As you probably already know, intern programs are a great way to hire soon-to-be
 new-grads. You both get to test each other out, and you can give them an offer

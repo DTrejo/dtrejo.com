@@ -1,5 +1,5 @@
 ---
-layout: 'Layout'
+layout: Layout
 heroImage: /images/dtrejo.jpg
 # actionText: Get Started →
 # actionLink: /guide/

@@ -3,7 +3,9 @@ title: Why share salary?
 date: 2017-04-12 20:53 CEST
 tags: hiring
 author: dtrejo
+layout: Layout
 ---
+# {{$page.title}}
 
 Sharing salary ranges for engineering positions is delicate. You don't want
 candidates to see the top end of the range and think that they left money on the
