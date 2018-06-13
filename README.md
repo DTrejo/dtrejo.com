@@ -32,11 +32,19 @@ heroImage: /images/dtrejo.jpg
 Hey there,  
 Which of these articles would you want me to write next? :)
 
-A. ~10 A/B tests which earn us ~+$10MM/year at Credit Karma (along with conversion numbers)
-B. How to keep shipping A/B tests while reducing technical debt from old dead experiment code
-C. How to involve your analyst/engineering manager/marketing manager in the prioritization, opportunity finding, and sizing which needs to happen before you can build an experiment
+<ol type="A">
+  <li>
+    ~10 A/B tests which earn us ~+$10MM/year at Credit Karma (along with conversion numbers)
+  </li>
+  <li>
+    How to keep shipping A/B tests while reducing technical debt from old dead experiment code
+  </li>
+  <li>
+    How to involve your analyst/engineering manager/marketing manager in the prioritization, opportunity finding, and sizing which needs to happen before you can build an experiment
+  </li>
+</ol>
 
-Or, what would you like me to write about? Your questions about growth
+**Or, what would you like me to write about?** Your questions about growth
 engineering & conversion rate optimization will help me write more–talk to you
 soon! <Email/>.
 
