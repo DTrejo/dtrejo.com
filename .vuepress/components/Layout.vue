@@ -8,7 +8,7 @@
       <!-- {{Object.keys($root.$options.components)}} -->
       <!-- {{Object.keys(Vue.options.components)}} -->
     </Page>
-    <div :is="$page.frontmatter.cta || 'CTA'"/>
+    <component :is="$page.frontmatter.cta || 'CTA'"/>
     <Footer/>
   </div>
 </template>
