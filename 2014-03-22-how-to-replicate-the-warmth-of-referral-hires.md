@@ -5,6 +5,8 @@ tags: hiring
 author: dtrejo
 ---
 
+# {{$page.title}}
+
 Hiring is a lot like dating. First let's talk about dating, then see what
 lessons apply to hiring. Finally, I'll share how to position yourself as the
 dominating option for your candidates. You should read this post if you are
