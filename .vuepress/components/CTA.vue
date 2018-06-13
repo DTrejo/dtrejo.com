@@ -62,6 +62,8 @@
 </script>
 
 <style lang="stylus" scoped>
+  @import '../override.styl'
+
   .cta
     max-width 31rem
     margin 0 auto
@@ -73,13 +75,24 @@
   //
   // CTA forms, primary and seconday, madlibs
   //
-  $form-color = #222
-  $form-background-color = #1d2327
-  $form-background-color = #739ecd
-  $form-background-color = #c1d1e9
-  $form-input-color = #2a4e76
+  $form-color = grayscale(#222)
+  $form-background-color = grayscale(#1d2327)
+  $form-background-color = grayscale(#739ecd)
+  $form-background-color = grayscale(#c1d1e9)
+  $form-input-color = grayscale(#2a4e76)
   $form-input-underline-color = $form-input-color
   $placeholder-color = $form-input-color
+  $bgPrimaryCTA = gold
+
+  // dark theme
+  $form-color = $secondaryAccentColor
+  $form-background-color = $searchBgColor
+  $form-input-color = $textColor
+  $form-input-underline-color = $headingColor
+  $placeholder-color = $form-input-color
+  $bgPrimaryCTA = $headingColor
+
+
   .cta
     background-color $form-background-color
     color $form-color
@@ -90,11 +103,34 @@
   input[placeholder]
     font-size 1.75rem
     border none
-    border-bottom 1px dashed $form-color
+    border-bottom 1px dashed $form-input-underline-color
     background-color transparent
     max-width 100%
     text-align center
-    color #2a4e76
+    color $form-input-underline-color
+
+
+  ::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+    color $form-input-underline-color
+  }
+  :-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+    color $form-input-underline-color
+    opacity 1
+  }
+  ::-moz-placeholder { /* Mozilla Firefox 19+ */
+    color $form-input-underline-color
+    opacity 1
+  }
+  :-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color $form-input-underline-color
+  }
+  ::-ms-input-placeholder { /* Microsoft Edge */
+    color $form-input-underline-color
+  }
+
+  ::placeholder { /* Most modern browsers support this now. */
+    color $form-input-underline-color
+  }
 
   .btn-6
     // zoom 0.6
@@ -128,6 +164,7 @@
   /* Button 6 */
   .btn-6
     color #fff
+    color $form-background-color
     background $btn-color
     -webkit-transition none
     -moz-transition none
@@ -154,9 +191,9 @@
     color $btn-color
 
   #primarycta
-    background-color gold
+    background-color $bgPrimaryCTA
     .btn-6
-      color gold
+      color $bgPrimaryCTA
       &:hover
         color $btn-color
 </style>

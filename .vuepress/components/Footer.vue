@@ -71,8 +71,8 @@
   .footer {
     margin-top 5rem
     padding 3rem 0
-    background-color $textColor
-    color $borderColor
+    background-color $searchBgColor //$textColor
+    color $textColor
   }
   .footer > * {
     max-width 33rem
