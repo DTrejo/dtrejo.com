@@ -19,34 +19,35 @@ Here are all the ways that my friend hustled to get me hired as his referral, as
 - How to find the hiring managers? 1) ask people on the relevant teams about who the hiring managers are 2) face to face, ask a recruiter friend who the hiring managers are
 - What if you don’t see any open positions for what your friend wants to do? Don’t give up. Find and introduce your friend to the hiring managers anyway, because everyone is always hiring, or they may not have published the job descriptions yet, or the headcount might be opening up next week.
 - How do you introduce your friend to the hiring manager? Ask the hiring manager if they want an intro; if you can’t find them in person, send an email like this:
-      
-      Subject: Want intro? Growth Engineer Candidate
-      Hey $firstname, 
-      Want an intro to $friendname who wants to do growth engineering for us?
-      Just reply yes or no, and it’s okay to say no.
-      $optionalLinksToLinkedInOrGithubOrWhatever
-      $optionalResume
-      
-      Thanks in advance,
-      $yourname
+    ```
+    Subject: Want intro? Growth Engineer Candidate
+    Hey $firstname, 
+    Want an intro to $friendname who wants to do growth engineering for us?
+    Just reply yes or no, and it’s okay to say no.
+    $optionalLinksToLinkedInOrGithubOrWhatever
+    $optionalResume
+    
+    Thanks in advance,
+    $yourname
+    ```
 - When the hiring manager says yes, introduce them:  
-      
-      Subject:  
-      $friendname <> $hiringmanagername re Growth Engineering @ Credit Karma
-      
-      $friendname meet $hiringmanager name.
-      $hiringmanagername meet $friendname.
+    ```
+    Subject:  
+    $friendname <> $hiringmanagername re Growth Engineering @ Credit Karma
+    
+    $friendname meet $hiringmanager name.
+    $hiringmanagername meet $friendname.
 
-      $friendname wants to do growth engineering with us. 
-      They are impressive in these ways. 
-      $optionalLinksToLinkedInOrGithubOrWhatever
+    $friendname wants to do growth engineering with us. 
+    They are impressive in these ways. 
+    $optionalLinksToLinkedInOrGithubOrWhatever
 
-      $hiringmanager name is in charge of $listOfAreas. 
-      They are impressive in these ways. $linkToLinkedIn
+    $hiringmanager name is in charge of $listOfAreas. 
+    They are impressive in these ways. $linkToLinkedIn
 
-      You would both benefit from speaking.
-      $yourName
-      
+    You would both benefit from speaking.
+    $yourName
+    ```
 - Now follow up every two days and cc both of them and ask "How's this going?"
 - If the recruiter is involved, whenever you ping them, ask “hey $person, any updates?”, and send the email to everyone, with the main person you want movement from in the TO field, and use their name. Everyone else gets Cc’d.
 - You might be a thinking, “that’s fucking annoying! I don’t want to spam people like that!” You’re thinking about this all wrong. If your company makes the hire, that means your friend will make the company 3x to 10x to 20x to 100x what they are paid. You are doing the company a big favor by referring your friend, and this is why you get a referral bonus. You are also doing your friend a favor because hopefully your company actually pays people. If not, leave ASAP. The hiring manager should and WILL thank you for following up and keeping everyone updated and on task.
