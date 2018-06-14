@@ -19,7 +19,7 @@ put it on my site.
 - So I published `github.com/dtrejo/colorpreview`, and it will show 
   under `dtrejo.com/colorpreview`
 - I cloned the repo locally (github.com/dtrejo/colorpreview) and ran
-    ``` sh
+    ```bash
     npm i 
     # I was told i needed these by `npm run build`
     npm i --save-dev stylus stylus-loader 
@@ -40,7 +40,7 @@ put it on my site.
 - cd into `dist`, delete all the files and dotfiles except for the .git folder
 - Copy the files from `dist-temp` back into dist
 - add all the files and commit and push them to the `gh-pages` branch:
-    ``` sh
+    ```bash
     git checkout -b gh-pages
     git add .   # repeat from here whenever you rebuild
     git commit -m 'deploy'

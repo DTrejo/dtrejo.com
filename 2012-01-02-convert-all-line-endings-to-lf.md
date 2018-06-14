@@ -12,19 +12,19 @@ or not there are mixed line endings in files.
 
 Use [dos2unix][2], which you can get using [macports][3]:
 
-```sh
+```bash
 sudo port install dos2unix
 ```
 
 And then use it:
 
-```sh
+```bash
 dos2unix filetoconvert.js
 ```
 
 Or if there are many offending files:
 
-```sh
+```bash
 find path/to/bad/files/ | xargs dos2unix
 ```
 
