@@ -13,6 +13,10 @@ cd .vuepress/dist
 # echo 'dtrejo.com' > CNAME
 
 git init
+git config core.sshCommand 'ssh -i ~/.ssh/id_rsa -F /dev/null'
+git config github.user = "DTrejo"
+git config user.name "DTrejo"
+git config user.email "david.daniel.trejo@gmail.com"
 git add -A
 git commit -m 'deploy'
 

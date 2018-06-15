@@ -7,7 +7,8 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "vuepress dev",
     "build": "vuepress build",
-    "deploy": "./deploy.sh"
+    "deploy": "./deploy.sh",
+    "deploy.sh": "./deploy.sh"
   },
   "author": "David Trejo",
   "license": "UNLICENSED",
