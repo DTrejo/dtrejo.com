@@ -77,18 +77,23 @@ _David Trejo_
 - better headshot image via victoria?
 - get my projects to load right: copy to public/; check em?
 - GA
-- fix dates at the start of filenames.
+
 - create draft post for easy copying on github.
 - migrate engineeroverflow.com to here?
 - migrate yelp rescues page to here?
 - turn workshop proposal(s) into a sales page
 - image to color scheme library?
-
 - get samir's feedback and the maybe hide even more stuff / further focus it.
-- √ noindex nofollow everything while you work on it. or just robots.txt, for now.
-- √ delete everything that is not relevant (or don't commit it)
-- √ all other articles
-- √ then do each growth article
+
+- [ignore] prev/next links based on the homepage categories? too much work.
+- [ignore] show 3 "next" related articles under each article?
+- [ignore] give the visitor a quiz and only show them what they're interest in?
+- [ignore] fix 404.html
+- √fix dates at the start of filenames.
+- √noindex nofollow everything while you work on it. or just robots.txt, for now.
+- √delete everything that is not relevant (or don't commit it)
+- √all other articles
+- √then do each growth article
 - √add author images
 - √do the CTA form
 - √fix images
@@ -98,9 +103,7 @@ _David Trejo_
 - √come up with a way to hide stuff from the listing of articles if old.
   e.g. && list !== false. or use an "archived" tag.
   Better: use a locale so they don't show in search bar.
-- [ignore] prev/next links based on the homepage categories? too much work.
-- [ignore] show 3 "next" related articles under each article?
-- [ignore] give the visitor a quiz and only show them what they're interest in?
+- √put on github
 
 -->
 
