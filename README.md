@@ -79,6 +79,7 @@ _David Trejo_
 - better headshot image?
 - get my projects to load right: copy to public/; check em?
 - GA
+- link audit
 
 
 - turn workshop proposal(s) into a sales page
