@@ -1,6 +1,4 @@
 User-agent: *
-# TODO remove
-Disallow: /
 
 Disallow: /feed.html
 Disallow: /feed.xml
