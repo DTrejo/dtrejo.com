@@ -35,9 +35,7 @@
 </style>
 
 <script>
-  import NavLink from './NavLink'
   export default {
-    components: { NavLink },
     computed: {
       author () {
         return this.$site.themeConfig.authors[this.$page.frontmatter.author]

@@ -66,6 +66,13 @@
   </div>
 </template>
 
+<script>
+import Articles from './Articles.vue'
+export default {
+  components: { Articles }
+}
+</script>
+
 <style lang="stylus" scoped>
   @import '../override.styl'
   .footer {

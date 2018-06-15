@@ -1,12 +1,9 @@
 <template>
   <div>
     <Page :sidebar-items="$parent.sidebarItems">
-      <!-- <h1 slot="top">{{$page.title}}xx</h1> -->
       <template slot="bottom">
         <Author/>
       </template>
-      <!-- {{Object.keys($root.$options.components)}} -->
-      <!-- {{Object.keys(Vue.options.components)}} -->
     </Page>
     <component :is="$page.frontmatter.cta || 'CTA'"/>
     <Footer/>
@@ -14,8 +11,16 @@
 </template>
 
 <script>
-import Page from 'vuepress/lib/default-theme/Page'
+/*
+<!-- <h1 slot="top">{{$page.title}}xx</h1> -->
+<!-- {{Object.keys($root.$options.components)}} -->
+<!-- {{Object.keys(Vue.options.components)}} -->
+*/
+import Author from './Author.vue'
+import CTA from './CTA.vue'
+import Footer from './Footer.vue'
+
 export default {
-  components: { Page }
+  components: { Footer, Author, CTA }
 }
 </script>

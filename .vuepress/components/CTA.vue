@@ -25,8 +25,8 @@
       </p>
       <div
         class="g-recaptcha"
-        data-sitekey="6Lde4yAUAAAAAJmNA-cp7ySkBKDmf3NhprEn8Y8Z">
-      </div>
+        data-sitekey="6Lde4yAUAAAAAJmNA-cp7ySkBKDmf3NhprEn8Y8Z"
+      />
       <input
         class="btn-6 btn-6a"
         data-drip-attribute="sign-up-button"
@@ -38,6 +38,8 @@
 </template>
 
 <script>
+export default {
+  mounted () {
     var _dcq = _dcq || []
     var _dcs = _dcs || {}
     _dcs.account = '7413888'
@@ -59,6 +61,8 @@
       var s = document.getElementsByTagName('script')[0]
       s.parentNode.insertBefore(dc, s)
     })()
+  }
+}
 </script>
 
 <style lang="stylus" scoped>

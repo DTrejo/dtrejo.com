@@ -9,19 +9,22 @@
       :key="post.frontmatter.title"
     >
       <router-link :to="post.path">
-        <div class="title">{{ post.title }}</div>
-        <!-- <div class="date">{{ new Date(post.frontmatter.date).toLocaleDateString() }}</div> -->
-        <!-- <div class="description">{{ post.frontmatter.description }}</div> -->
-        <!-- TODO: include excerpt instead? -->
+        {{ post.title }}
       </router-link>
-      <!-- style="white-space: pre; font-family: monaco, monospace;"
-      {{JSON.stringify([this,tag, post], null, 2)}} -->
-      <!-- it is okay to put this in an <article> if you include excerpt etc -->
     </li>
   </ol>
 </template>
 
 <script>
+/*
+<!-- <div class="title">{{ post.title }}</div> -->
+<!-- <div class="date">{{ new Date(post.frontmatter.date).toLocaleDateString() }}</div> -->
+<!-- <div class="description">{{ post.frontmatter.description }}</div> -->
+<!-- TODO: include excerpt instead? -->
+<!-- style="white-space: pre; font-family: monaco, monospace;"
+{{JSON.stringify([this,tag, post], null, 2)}} -->
+<!-- it is okay to put this in an <article> if you include excerpt etc -->
+*/
 export default {
   props: {
     tag: {
