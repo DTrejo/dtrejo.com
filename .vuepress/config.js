@@ -1,6 +1,9 @@
 module.exports = {
   title: 'David Trejo',
   description: 'Growth Engineer at Credit Karma & Consultant',
+  head: [
+    ['link', { rel: 'icon', href: '/favicon.png' }]
+  ],
   themeConfig: {
     authors: {
       default: {
