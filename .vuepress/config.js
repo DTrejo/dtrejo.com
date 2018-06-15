@@ -2,7 +2,9 @@ module.exports = {
   title: 'David Trejo',
   description: 'Growth Engineer at Credit Karma & Consultant',
   head: [
-    ['link', { rel: 'icon', href: '/favicon.png' }]
+    ['link', { rel: 'icon', href: '/favicon.png' }],
+    ['meta', { name: 'copyright', content: `Copyright 2009-${(new Date()).getFullYear()} David Trejo` }],
+    ['meta', { name:'apple-mobile-web-app-capable', content: 'yes' }],
   ],
   themeConfig: {
     authors: {
