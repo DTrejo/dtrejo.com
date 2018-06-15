@@ -108,9 +108,7 @@ _David Trejo_
 -->
 
 <script>
-import NavLink from 'vuepress/lib/default-theme/NavLink'
 export default {
-  components: { NavLink },
   computed: {
     data () {
       return this.$page.frontmatter

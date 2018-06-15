@@ -35,7 +35,7 @@
 </style>
 
 <script>
-  import NavLink from 'vuepress/lib/default-theme/NavLink'
+  import NavLink from './NavLink'
   export default {
     components: { NavLink },
     computed: {
