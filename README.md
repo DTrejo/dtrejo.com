@@ -58,37 +58,42 @@ _David Trejo_
 - Only one major CTA on every page (mid-article CTAs are also okay)
 - Offer alternate CTAs at the end of the article, e.g. sign up! or... email me; read on)
 - Only show one column of text. no sidebar.
-- Only add TOC at the top for non-sales articles
+- Only add TOC at the top for (long) non-sales articles
 - Homepage has... mini squeeze copy; sign up cta; read on;
   then footer, to deemphasize:
-    √my projects etc like it is on my current site; then my articles
+    √ my projects etc like it is on my current site
+    √ then my articles
 
 ## Questions
 - [ignore for now] how to make a sitemap.xml? see their github issues. someone wrote one.
 - [ignore for now] how to do redirects? w/ router injecting urls?
-- [ignore] use subdirectories to create prev/next? dunno. ignore it.
+- [ignore for now] improve meta tags, see old homepage.
 
 ## TODOs
-- new color theme? or just accentcolor?
-- >>> publish it!
-- >>> set up CI to publish it
+- >>> set up CI to publish it, check the vuepress suggested config
+
+- new color theme? or just improve the orange accentcolor? and improve the gold
+  on the CTA form? saturation.
 
 - check cta form works
-- better headshot image via victoria?
+- better headshot image?
 - get my projects to load right: copy to public/; check em?
 - GA
 
-- create draft post for easy copying on github.
-- migrate engineeroverflow.com to here?
-- migrate yelp rescues page to here?
+
 - turn workshop proposal(s) into a sales page
-- image to color scheme library?
+- migrate engineeroverflow to here? w/ redirect.
+- migrate yelp rescues page to here? w/ redirect. fix yelp sales page
 - get samir's feedback and the maybe hide even more stuff / further focus it.
 
+- [ignore] use subdirectories to create prev/next? dunno. ignore it.
 - [ignore] prev/next links based on the homepage categories? too much work.
 - [ignore] show 3 "next" related articles under each article?
-- [ignore] give the visitor a quiz and only show them what they're interest in?
-- [ignore] fix 404.html
+- [ignore] give the visitor a quiz and only show them what they're interested in?
+- [ignore] fix 404.html, use box2d.
+- [ignore] image to color scheme library?
+- √create draft post for easy copying on github.
+- √publish it!
 - √fix dates at the start of filenames.
 - √noindex nofollow everything while you work on it. or just robots.txt, for now.
 - √delete everything that is not relevant (or don't commit it)
