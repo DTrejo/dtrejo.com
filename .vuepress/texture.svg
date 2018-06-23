@@ -1,0 +1,21 @@
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  style="background-color: #0267a5;"
+  xstyle="background-color: #0381cf;"
+  width="100%"
+  height="100%"
+  viewBox="0 0 377 377"
+  xpreserveAspectRatio="none"
+  version="1.1"
+>
+    <defs>
+      <filter id="noise2">
+          <feTurbulence type="fractalNoise" baseFrequency="30" result="noisy" />
+          <feColorMatrix type="saturate" values="-6"/>
+          <feColorMatrix type="luminanceToAlpha"/>
+          <!-- <feGaussianBlur stdDeviation="0.25" /> -->
+          <feGaussianBlur stdDeviation="1" />
+      </filter>
+    </defs>
+    <rect width="377" height="377" filter="url(#noise2)" opacity="1" fill="none"/>
+</svg>

@@ -80,6 +80,7 @@ _David Trejo_
 - get my projects to load right: copy to public/; check em?
 - GA
 - link audit
+- router links to homepage are broken
 
 
 - turn workshop proposal(s) into a sales page
