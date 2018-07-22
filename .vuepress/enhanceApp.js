@@ -10,4 +10,6 @@ export default ({
   // ...apply enhancements to the app
   Vue.component('NavLink', NavLink)
   Vue.component('Page', Page)
+  // TODO how to overwrite or remove this?
+  // Vue.component('OutboundLink', OutboundLink)
 }

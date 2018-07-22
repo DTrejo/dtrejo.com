@@ -39,9 +39,11 @@
 
 <script>
 export default {
+  // TODO disable client side JS to get this to work right?
+  // Need to add the JS to the layout then.
   mounted () {
-    var _dcq = _dcq || []
-    var _dcs = _dcs || {}
+    window._dcq = window._dcq || []
+    window._dcs = window._dcs || {}
     _dcs.account = '7413888'
     ;(function() {
       var dc = document.createElement('script')

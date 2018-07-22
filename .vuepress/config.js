@@ -24,6 +24,14 @@ module.exports = {
       // TODO: hiring articles?
     ],
     // sidebar: []
+    shouldPrefetch: (file, type) => {
+      return false
+    },
+    markdown: {
+      externalLinks: {
+        target: undefined
+      }
+    }
   }
 }
 
