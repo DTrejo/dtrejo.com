@@ -1,0 +1,17 @@
+<h1>hello i am a viper rendered component ${(new Date()).toString()}</h1>
+
+model: ${typeof model}
+<br/>
+render: ${typeof render}
+
+${render.toString() + `1`}
+
+${[require('./_components/articles')(pages, 'hiring')]}
+
+${[require('marked')(`# hahaha nice!!
+
+## boooyeeee`)]}
+
+\`\`\`js
+    hello there
+\`\`\`
